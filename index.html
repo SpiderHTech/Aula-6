@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quero Leads</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Quero Leads - Cadastro</h1>
+    <form  class="" action="index.html" method="post">
+        <fieldset>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" value="" placeholder="digite seu nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" value="" placeholder="digite seu email">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" placeholder="119847277497">
+
+                <label for="estado">Estado</label>
+                <select name="estado" id="">
+                        <option disabled>Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                </select>
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua" placeholder="av brigadeiro">
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" placeholder="digite sua cidade">
+
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro" placeholder="digite seu bairro">
+                
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" placeholder="digite o número do seu endereço">
+
+                <label for="complemento">Complemento:</label>
+                <input type="text" name="complemento" placeholder="digite o complemento do seu endereço">
+
+                <label for="cep">CEP:</label>
+                <input type="number" name="cep">
+
+                <label for="genero">Genero:</label>
+                <input type="radio" name="genero" value="masculino">Masculino
+                <input type="radio" name="genero" value="feminino">Feminino
+                <input type="radio" name="genero" value="outro">Outro
+<br>
+                <label for="gostos">Selecione os itens que você mais gosta:</label><br>
+                <input type="checkbox" name="musica" value="musica">Música <br>
+                <input type="checkbox" name="teatro" value="teatro">Teatro <br>
+                <input type="checkbox" name="esporte" value="esporte">Esporte <br>
+
+                <label for="data">Data de Nascimento</label>
+
+                <label for="comentario">Comente o que você achou disso tudo</label> <br>
+                <textarea name="comentario" rows="8" cols="80"></textarea>
+                <input type="submit" name="enviar" value="enviar">
+        </fieldset>
+        
+    </form>
+</body>
+</html>

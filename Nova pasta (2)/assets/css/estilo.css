@@ -1,0 +1,10 @@
+.menu{
+    display: flex;
+}
+
+.menu > ul> li{
+    list-style: none;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
